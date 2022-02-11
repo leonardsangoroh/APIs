@@ -5,7 +5,7 @@
 
     //Getting content from API
     //In JSON
-    curl_setopt($ch, CURLOPT_URL, "https://api.openweathermap.org/data/2.5/weather?q=London&appid=49832d6ae6db149f24fe5e9ee60ab21b");
+    curl_setopt($ch, CURLOPT_URL, "https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR API KEY");
 
     //To string instead of directly displaying it on the screen
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
