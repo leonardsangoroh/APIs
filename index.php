@@ -1,13 +1,13 @@
 <?php
     //Require the package classes
-    require __DIR__ . "/Guzzle/autoload.php";
+    require __DIR__ . "/vendor/autoload.php";
 
     $client = new GuzzleHttp\Client;
 
     $response = $client->request("GET", "https://api.github.com/user/repos", [
         "headers" => [
-            "Authorization" => "token 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",
-            "User-Agent" => "leonardsangoroh"
+            "Authorization: token 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",
+            "User-Agent: leonardsangoroh"
         ]
     ]);
 
