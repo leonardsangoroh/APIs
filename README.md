@@ -1,2 +1,4 @@
 # APIs
-Contains code I coded as I learnt about APIs & their usage using PHP programming language
+
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to communicate.
+This repository demonstrates the basic usage of APIs in PHP programming language.
